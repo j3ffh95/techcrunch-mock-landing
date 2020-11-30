@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color: #f1f1f1;
+  color: #333;
+  line-height: 1.5;
+  font-family: "open sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.container > * {
+  float: left;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  width: 10%;
+  padding: 1em;
+}
+
+.logo-img {
+  width: 40%;
+  margin-bottom: 0.5em;
+}
+
+.primary-text {
+  color: #f6a623;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.login-link {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.more-link {
+  padding: 1em 0;
+  display: inline-block;
+}
+
+.nav-list {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.nav-list > li {
+  margin-bottom: 1em;
+}
+
+.divider {
+  width: 30px;
+  border: #333 solid 1px;
+}
+
+.main-section {
+  width: 55%;
+  margin: 1em 3em;
+}
+
+.main-img {
+  width: 100%;
+  height: 350px;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: #000;
+  margin: 0.2em 0;
+}
+
+.p-lead {
+  color: #868383;
+}
+
+.author-name {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 0.5em 0;
+  display: inline-block;
+}
+
+.aside {
+  width: 25%;
+}
+
+.aside > * + * {
+  padding-top: 1em;
+  border-top: #ddd solid 1px;
+}
+
+.latest-section {
+  width: 87%;
+  margin-left: auto;
+}
+
+.latest-section > h2 {
+  font-size: 1rem;
+  padding-bottom: 0.7em;
+  border-bottom: solid 1px #ddd;
+}
+
+.latest-title > h2 {
+  line-height: 1.2;
+}
+
+.info {
+  font-size: 0.7rem;
+}
+
+.latest-section > * + * {
+  width: 30%;
+  float: left;
+  padding-top: 1em;
+}
+
+.latest-content {
+  margin: 0 3em;
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
