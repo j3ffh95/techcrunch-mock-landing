@@ -171,6 +171,86 @@ header {
     margin: 0 auto;
     float: none;
   }
+
+  .latest-section {
+    width: 40rem;
+    margin: 5rem auto;
+    overflow: auto;
+    text-align: center;
+  }
+
+  .latest-section > * + * {
+    width: 100%;
+    float: none;
+    padding-top: 1em;
+  }
+
+  .latest-content {
+    margin: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .container > * {
+    float: unset;
+  }
+
+  header {
+    width: unset;
+    overflow: auto;
+  }
+
+  .logo {
+    width: 10rem;
+  }
+
+  .login-link {
+    margin-bottom: unset;
+  }
+
+  .nav-list {
+    font-size: 1rem;
+    font-weight: 300;
+    float: right;
+    width: 100%;
+  }
+
+  .nav-list > li {
+    margin: 0.5em 1em 1em 0;
+    float: left;
+  }
+
+  .more-link {
+    display: none;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .main-section {
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  .aside {
+    width: 90%;
+    margin: 5rem auto;
+    text-align: center;
+  }
+
+  .latest-section {
+    width: 100%;
+  }
+
+  .latest-section > * + * {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-img {
+    height: unset;
+  }
 }
 
 /******************************************
